@@ -11,6 +11,8 @@ public class LaunchApp {
 		//BeanFactory(I)
 		
 		ApplicationContext container = new ClassPathXmlApplicationContext("applicationconfig.xml");
+		 
+		
 	}
 
 }
