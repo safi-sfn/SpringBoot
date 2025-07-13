@@ -8,4 +8,9 @@ public class SpringBootCourse implements ICourse {
 		return true;
 	}
 
+	public SpringBootCourse() {
+		System.out.println("SpringBootCourse bean created");
+	}
+	
+
 }
