@@ -8,4 +8,9 @@ public class JavaCourse implements ICourse {
 		return true;
 	}
 
+	public JavaCourse() {
+		System.out.println("JavaCourse bean created");
+	}
+	
+
 }
